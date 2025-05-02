@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Accueil - Mon Projet</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="img/logo.png" alt="Logo du projet" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="equipe.html">Qui sommes-nous ?</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="other">
+    <!-- Carrousel combiné (Avions + Basketball) -->
+    <section class="carousel">
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        </div>        
+        <div class="carousel-inner">
+          <!-- Slide Avion 1 -->
+          <div class="carousel-item active">
+            <img src="images/avion/aircraft-1417041_640.jpg" class="d-block w-100" alt="Avion">
+            <div class="carousel-caption d-block">
+              <h1>Les Maîtres du Ciel</h1>
+              <p>Une série documentaire sur les avions qui ont changé l'histoire</p>
+              <a href="#documentaires" class="btn btn-warning btn-lg px-4 rounded-pill shadow mt-3">
+                Décoller maintenant <i class="bi bi-airplane-engines-fill"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Slide Avion 2 -->
+          <div class="carousel-item">
+            <img src="images/avion/cockpit-6893961_640.jpg" class="d-block w-100" alt="Cockpit">
+            <div class="carousel-caption cockpit-style">
+              <h1>Au Cœur du Cockpit</h1>
+              <p>Vivez l’expérience immersive d’un pilote de ligne</p>
+              <a href="#documentaires" class="cta-cockpit">Prendre les commandes 🛩️</a>
+            </div>
+          </div>
+          <!-- Slide Avion 3 -->
+          <div class="carousel-item">
+            <img src="images/avion/airbus-872466_640.jpg" class="d-block w-100" alt="Turbine">
+            <div class="carousel-caption turbine-style">
+              <h2>La Puissance en mouvement</h2>
+              <p>Découvrez les secrets d'ingénierie derrière les moteurs à réaction</p>
+              <a href="#documentaires" class="cta-turbine">Voir le reportage <i class="bi bi-gear-wide-connected"></i></a>
+            </div>
+          </div>
+          <!-- Slide Basketball 1 -->
+          <div class="carousel-item">
+            <img src="images/basket/b47cc737208777a232b28df756049bb6.jpg" id="Nailsmith" class="d-block w-100" alt="Evolution du Basket">
+            <div class="carousel-caption basketball-style">
+              <h1>Basketball : Une Évolution</h1>
+              <p>Découvrez l'histoire fascinante du basketball, de ses débuts à aujourd'hui</p>
+              <a href="#documentaires" class="cta-basketball">
+                Explorer l’Histoire <i class="bi bi-basket"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Slide Basketball 2 -->
+          <div class="carousel-item">
+            <img src="images/basket/basketball-1544370_640.jpg" class="d-block w-100" alt="Légendes du Basket">
+            <div class="carousel-caption legendes-style">
+              <h1>Les Légendes du Parquet</h1>
+              <p>Revivez les exploits des plus grandes légendes du Basket</p>
+              <a href="#documentaires" class="cta-legendes">Dunkkk !!! <i class="fas fa-basketball-ball"></i></a>
+            </div>
+          </div>
+          <!-- Slide Basket 3 -->
+          <div class="carousel-item">
+            <img src="images/basket/basketball-108622_640.jpg" class="d-block w-100" alt="Équipes emblématiques">
+            <div class="carousel-caption teams-style">
+              <h1>Les Equipes Légendaires 🏀</h1>
+              <p>Plongez dans l’histoire des Harlem Globetrotters, Lakers, Bulls et plus encore</p>
+              <a href="#equipes" class="cta-teams">Découvrir les icônes 🏆</a>
+            </div>
+          </div>
+          <!-- Slide Relativité Générale -->
+          <div class="carousel-item">
+            <img src="images/science/relativité.jpg" class="d-block w-100" alt="Relativité générale">
+            <div class="carousel-caption relativite-style">
+              <h1>Courbure de l’Univers</h1>
+              <p>Explorez la relativité générale et la gravité d’Einstein</p>
+              <a href="#documentaires" class="cta-relativite">Comprendre 🌌</a>
+            </div>
+          </div>
+          <!-- Slide Boson de Higgs -->
+          <div class="carousel-item">
+            <img src="images/science/boson.webp" class="d-block w-100" alt="Boson de Higgs">
+            <div class="carousel-caption higgs-style">
+              <h1>The Goddamn Particle</h1>
+              <p>Voyage au cœur du boson de Higgs et de la masse</p>
+              <a href="#documentaires" class="cta-higgs">Découvrir ⚛️</a>
+            </div>
+          </div>
+          <!-- Slide Intrication Quantique -->
+          <div class="carousel-item">
+            <img src="images/science/intrication.jpg" class="d-block w-100" alt="Intrication quantique">
+            <div class="carousel-caption quantique-style">
+              <h1>Particules Liées</h1>
+              <p>L’intrication quantique : deux entités, une seule réalité</p>
+              <a href="#documentaires" class="cta-quantique">Plonger dedans 🧬</a>
+            </div>
+          </div>
+        </div>
+        <!-- Contrôles du carrousel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Suivant</span>
+        </button>
+      </div>
+    </section>
+    
+    <!-- Autres sections -->
+    <section class="presentation">
+      <h1>Bienvenue sur le site officiel de Magazine&co</h1>
+      <p>Profitez bien ici d'informations diverses, sous moult formats, sur tous vos sujets désirés.</p>
+    </section>
+    <section class="equipe">
+      <h2>Notre équipe</h2>
+      <div class="membre">
+        <img src="img/photos-membres/membre1.jpg" alt="Photo membre 1">
+        <p>Nom 1 - Rôle<br>Brève description</p>
+      </div>
+    </section>
+    <section class="video">
+      <h2>Présentation vidéo</h2>
+      <video controls>
+        <source src="media/video.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture de vidéos.
+      </video>
+    </section>
+    <section class="audio">
+      <h2>Audio explicatif</h2>
+      <audio controls>
+        <source src="media/audio.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas la lecture audio.
+      </audio>
+    </section>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 Mon Projet. Tous droits réservés.</p>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
