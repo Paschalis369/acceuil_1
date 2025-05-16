@@ -587,10 +587,38 @@ video, audio {
     font-size: 2em;
   }
 
-  header a {
-    font-size: 1.8em;
-    padding: 0 10px;
+  .card{
+    max-width: 14rem;
+    max-height: 40rem;
+    font-size: 9px;
   }
+
+  .card img{
+    max-width: 220px;
+    max-height: 200px;
+  }
+
+  .card-text{
+    font-size: 14px;
+  }
+
+  .navbar {
+    padding: 20px !important;
+    font-size: 5rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 2.5rem !important;
+  }
+
+  .nav-link {
+    font-size: 2.8rem !important;
+  }
+
+  .list-group-item{
+    font-size: 11px;
+  }
+
 }
 
 /* === modifications annexes === */
